@@ -22,14 +22,11 @@ char *_strstr(char *haystack, char *needle)
 		{
 			while (haystack[i] == needle[i])
 			{
-				if (needle[i + 1] == '\0')
-				{
-					return (haystack);
-				}
-				i++;
+				if (needle[i + 1] == '\0')				{
+				return (haystack);
 			}
-		}
-		haystack++;
-	}
-	return ('\0');
+			i++;
+			}		}
+	haystack++;
+	}	return ('\0');
 }
