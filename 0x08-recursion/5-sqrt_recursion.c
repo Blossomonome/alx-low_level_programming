@@ -30,13 +30,15 @@ int is_square_root(int num, int squared)
  * Return: Success (integer)
  */
 int _sqrt_recursion(int n)
-{	int squared = 0;	if (n < 0)
-	{
-	return (-1);
+{
+	int squared = 0;
+	if (n < 0)
+
+	{		return (-1);
 	}
 	else if (n == 1)
 	{
-	return (1);
+		return (1);
 	}
 	return (is_square_root(n, squared));
 }
