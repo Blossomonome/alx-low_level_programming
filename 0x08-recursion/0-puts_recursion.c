@@ -1,7 +1,8 @@
-#	include "main.h"
-/*
+#include "main.h"
+
+/**
  * _puts_recursion - entry point
- * Description - function that prints a string followed by a new line
+ * Description: - function that prints a string followed by a new line
  * @s: pointer to string to be printe
  * Return: 0
  */
